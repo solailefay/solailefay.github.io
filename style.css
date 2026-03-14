@@ -177,11 +177,11 @@ footer nav a:hover { color: var(--fern); }
 .field-strip-head { margin-bottom: 2rem; }
 .field-strip-head .label { color: var(--fern); }
 .field-strip-head .h2 { color: #fff; }
-.field-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; }
-.field-row .fp { aspect-ratio: 3/4; border-radius: 2px; overflow: hidden; }
-.field-row .fp .ph,
-.field-row .fp img { width: 100%; height: 100%; object-fit: cover; }
-.field-row .fp .ph { background: rgba(255,255,255,0.06); color: var(--fern); }
+.field-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; }
+.field-grid .fp { aspect-ratio: 3/4; border-radius: 2px; overflow: hidden; }
+.field-grid .fp .ph,
+.field-grid .fp img { width: 100%; height: 100%; object-fit: cover; }
+.field-grid .fp .ph { background: rgba(255,255,255,0.06); color: var(--fern); }
 
 /* ══════════════════════════════
    RESEARCH
