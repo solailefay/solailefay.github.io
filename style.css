@@ -213,7 +213,7 @@ footer nav a:hover { color: var(--fern); }
 .methods-inner { max-width: 1080px; margin: 0 auto; }
 .methods-bar .label { color: var(--fern); }
 .methods-bar .h2 { color: #fff; margin-bottom: 2.5rem; }
-.methods-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 2rem; }
+.methods-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; }
 .method-col { border-left: 1px solid rgba(157,186,142,0.35); padding-left: 1.4rem; }
 .method-col h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: #fff; margin-bottom: 0.6rem; font-weight: 500; }
 .method-col p { font-size: 0.82rem; color: rgba(157,186,142,0.65); font-weight: 300; line-height: 1.7; }
