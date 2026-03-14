@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Solai Le Fay</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<script src="nav.js"></script>
+<div class="page-wrap">
+
+  <!-- BANNER — replace placeholder div with: <img src="about-banner.jpg" class="page-banner-img" alt=""/> -->
+  <div class="page-banner" style="height:52vh;min-height:340px;">
+    <div class="page-banner-ph" style="background:linear-gradient(155deg,#8aaa78 0%,#3a5c3b 55%,#243d25 100%);"></div>
+    <div class="page-banner-scrim"></div>
+    <div class="page-banner-content">
+      <p class="label label-light">About</p>
+      <h1 class="page-banner-title">Solai Le Fay</h1>
+    </div>
+  </div>
+
+  <div class="about-layout">
+
+    <!-- SIDEBAR: portrait + social links -->
+    <div class="about-photo-wrap">
+      <!--
+        Replace the placeholder below with your photo:
+        <img src="profile.jpg" alt="Solai Le Fay" class="about-photo"/>
+      -->
+      <div class="about-photo-ph">
+        <div class="ph" style="aspect-ratio:3/4;border-radius:2px;">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" class="phico"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span>Your portrait photo</span>
+        </div>
+      </div>
+      <div class="social-row">
+        <a href="#" class="social-chip">Google Scholar</a>
+        <a href="#" class="social-chip">GitHub</a>
+        <a href="#" class="social-chip">Bluesky</a>
+        <a href="#" class="social-chip">Instagram</a>
+        <a href="#" class="social-chip">ResearchGate</a>
+        <a href="#" class="social-chip">Research Lab</a>
+      </div>
+    </div>
+
+    <!-- BIO TEXT -->
+    <div class="about-text">
+      <h2>Wildlife ecologist, field biologist,<br>and conservation advocate.</h2>
+      <p>I am an MSc student in Raptor Biology at Boise State University, working in the Quantitative Conservation Lab under the supervision of Professor [Advisor Name]. My research sits at the intersection of behavioral ecology, movement ecology, and conservation science.</p>
+      <p>My fieldwork centers on [your study species/region]. I use [your methods] to understand how these species navigate and shape the ecosystems they inhabit.</p>
+      <p>I am passionate about bridging rigorous science with public engagement. I've led field outings for community members, teachers, and students — bringing over 200 people into wild spaces.</p>
+      <p>Before graduate school I earned my B.S. in [Field] from [Undergraduate Institution].</p>
+
+      <p class="interests-head">Research interests</p>
+      <div class="interests-grid">
+        <span class="interest">Raptor ecology &amp; behavior</span>
+        <span class="interest">Animal movement &amp; telemetry</span>
+        <span class="interest">Predator–prey dynamics</span>
+        <span class="interest">Trophic cascades</span>
+        <span class="interest">Quantitative methods</span>
+        <span class="interest">Human–wildlife coexistence</span>
+        <span class="interest">Conservation biology</span>
+        <span class="interest">Science communication</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FIELD PHOTO STRIP -->
+  <div class="field-strip">
+    <div class="field-strip-inner">
+      <div class="field-strip-head">
+        <p class="label label-light">Field Life</p>
+        <h2 class="h2" style="color:#fff;">Out there every season</h2>
+      </div>
+      <div class="field-row">
+        <!--
+          Replace each placeholder with: <img src="field1.jpg" alt="..." />
+        -->
+        <div class="fp"><div class="ph" style="background:rgba(255,255,255,0.06);color:var(--fern);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" class="phico"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Field photo</span>
+        </div></div>
+        <div class="fp"><div class="ph" style="background:rgba(255,255,255,0.06);color:var(--fern);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" class="phico"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Field photo</span>
+        </div></div>
+        <div class="fp"><div class="ph" style="background:rgba(255,255,255,0.06);color:var(--fern);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" class="phico"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Field photo</span>
+        </div></div>
+        <div class="fp"><div class="ph" style="background:rgba(255,255,255,0.06);color:var(--fern);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" class="phico"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Field photo</span>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end page-wrap -->
+<footer>
+  <p>© 2026 Solai Le Fay &nbsp;·&nbsp; Avian Ecologist</p>
+  <nav><a href="#">Google Scholar</a><a href="#">GitHub</a><a href="mailto:solailefay@u.boisestate.edu">Email</a></nav>
+</footer>
+</body>
+</html>
