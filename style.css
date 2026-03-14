@@ -14,8 +14,8 @@
   --rule:   rgba(60,90,60,0.14);
   --gold:   #c4a882;
   --nav-h:  62px;
-  --dustyblue: #a8b0c0;
-  --dustyrose: #87696e;
+  --lightblue: #a8b0c0;
+  --dustyblue: #5a7080;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -36,8 +36,8 @@ body {
   font-weight: 400; text-decoration: none; cursor: pointer;
   border: none; transition: all 0.22s;
 }
-.btn-solid { background: var(--dustyrose); color: #fff; padding: 0.82rem 2rem; border-radius: 1px; }
-.btn-solid:hover { background: #75585c; }
+.btn-solid { background: var(--dustyblue); color: #fff; padding: 0.82rem 2rem; border-radius: 1px; }
+.btn-solid:hover { background: #8fa3b0; }
 .btn-ghost { background: transparent; color: #fff; padding: 0.8rem 1.8rem; border-radius: 1px; border: 1px solid rgba(255,255,255,0.45); }
 .btn-ghost:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.7); }
 .btn-outline { background: transparent; color: var(--forest); padding: 0.75rem 1.6rem; border-radius: 1px; border: 1px solid var(--moss); }
