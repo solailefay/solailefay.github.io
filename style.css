@@ -184,7 +184,7 @@ footer nav a:hover { color: var(--fern); }
 .field-grid .fp .ph { background: rgba(255,255,255,0.06); color: var(--fern); }
 /* Remove the aspect-ratio for wide photos */
 .field-grid .fp.wide {
-  grid-column: span 2;
+  grid-column: span 2; aspect-ratio: unset;}
   /* aspect-ratio removed, height comes from grid row */
 
 /* ══════════════════════════════
