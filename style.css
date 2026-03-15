@@ -148,8 +148,8 @@ footer nav a:hover { color: var(--fern); }
 .home-photos-head { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem; }
 .photo-grid-large {
   display: grid;
-  grid-template-columns: 2.2fr 1fr 1fr;
-  grid-template-rows: 260px 180px 180px;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 220px 220px 160px;
   gap: 3px;
 }
 .pg-focal {
@@ -157,20 +157,39 @@ footer nav a:hover { color: var(--fern); }
   grid-row: 1 / 3;
   overflow: hidden;
 }
-.pg-tall {
+.pg-top-mid {
+  grid-column: 2;
   grid-row: 1;
   overflow: hidden;
 }
-.pg-wide {
-  grid-column: 1 / 3;
-  overflow: hidden;
-}
-.pg-sm {
-  overflow: hidden;
-}
-.pg-portrait {
+.pg-top-right {
   grid-column: 3;
-  grid-row: 2 / 4;
+  grid-row: 1;
+  overflow: hidden;
+}
+.pg-mid-mid {
+  grid-column: 2;
+  grid-row: 2;
+  overflow: hidden;
+}
+.pg-mid-right {
+  grid-column: 3;
+  grid-row: 2;
+  overflow: hidden;
+}
+.pg-bot-left {
+  grid-column: 1;
+  grid-row: 3;
+  overflow: hidden;
+}
+.pg-bot-mid {
+  grid-column: 2;
+  grid-row: 3;
+  overflow: hidden;
+}
+.pg-bot-right {
+  grid-column: 3;
+  grid-row: 3;
   overflow: hidden;
 }
 .photo-grid-large > div img {
@@ -179,10 +198,10 @@ footer nav a:hover { color: var(--fern); }
   display: block;
   transition: transform 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
 }
-
 .photo-grid-large > div:hover img {
   transform: scale(1.06);
 }
+
 @media (max-width: 900px) {
   .photo-grid-large {
     grid-template-columns: 1fr 1fr;
