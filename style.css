@@ -383,7 +383,7 @@ footer nav a:hover { color: var(--fern); }
   .about-photo, .about-photo-ph { aspect-ratio: 4/3; max-height: 320px; }
   .main-project { grid-template-columns: 1fr; }
   .small-grid { grid-template-columns: 1fr; }
-  .methods-grid { grid-template-columns: 1fr 1fr 1fr;}
+  .methods-grid { grid-template-columns: 1fr ;}
   .contact-layout { grid-template-columns: 1fr; gap: 3rem; padding: 3rem 1.5rem; }
   .cv-layout { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem; }
   .cv-aside { position: static; }
@@ -392,7 +392,7 @@ footer nav a:hover { color: var(--fern); }
   .field-row { grid-template-columns: 1fr 1fr; }
   .outing-layout { grid-template-columns: 1fr; gap: 2rem; }
   .news-grid { grid-template-columns: 1fr; }
-  .impact-row { grid-template-columns: 1fr 1fr; }
+  .impact-row { grid-template-columns: 1fr 1fr 1fr; }
   .out-section { padding: 3rem 1.5rem; }
   .mosaic { grid-template-columns: 1fr 1fr 1fr; }
   .mosaic .m1, .mosaic .m4 { grid-column: span 1; }
