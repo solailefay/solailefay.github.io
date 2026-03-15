@@ -307,7 +307,7 @@ footer nav a:hover { color: var(--fern); }
 ══════════════════════════════ */
 .impact-band { background: var(--forest); padding: 4rem 3rem; }
 .impact-band-inner { max-width: 1080px; margin: 0 auto; }
-.impact-row { display: grid; gap: 0; }
+.impact-row { display: grid; gap: 0; grid-template-columns: repeat(3, 1fr); }
 .impact-col { padding: 1.5rem 2rem; border-left: 1px solid rgba(157,186,142,0.2); text-align: center; }
 .impact-col:first-child { border-left: none; }
 .impact-num { font-family: 'Cormorant Garamond', serif; font-size: 3rem; color: var(--fern); font-style: italic; line-height: 1; margin-bottom: 0.4rem; }
