@@ -206,9 +206,16 @@ footer nav a:hover { color: var(--fern); }
   .photo-grid-large {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 0;
+    gap: 3px;
   }
-  .pg-focal, .pg-wide, .pg-portrait {
+  .pg-focal,
+  .pg-top-mid,
+  .pg-top-right,
+  .pg-mid-mid,
+  .pg-mid-right,
+  .pg-bot-left,
+  .pg-bot-mid,
+  .pg-bot-right {
     grid-column: span 1;
     grid-row: span 1;
   }
