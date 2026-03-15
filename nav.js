@@ -18,7 +18,9 @@
 
   document.write(`
     <nav>
-      <a href="index.html" class="nav-name">Solai Le Fay</a>
+      <a href="index.html" class="nav-name">
+        <img src="favicon.png" alt="favicon" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;margin-right:0.4rem;"/>
+      Solai Le Fay</a>
       <button class="nav-hamburger" id="nav-btn" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
