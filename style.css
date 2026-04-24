@@ -326,7 +326,7 @@ footer nav a:hover { color: var(--fern); }
 .news-date { font-size: 0.78rem; color: var(--earth); }
 .news-link { display: inline-block; margin-top: 0.9rem; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sage); text-decoration: none; border-bottom: 1px solid rgba(107,143,94,0.3); padding-bottom: 1px; }
 .news-link:hover { color: var(--forest); }
-.outing-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+.outing-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
 .outing-text h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.7rem; color: var(--forest); margin-bottom: 1rem; line-height: 1.25; font-weight: 400; }
 .outing-text p { font-size: 0.96rem; color: var(--ink2); font-weight: 300; line-height: 1.85; margin-bottom: 1.1rem; }
 .outing-list { list-style: none; }
